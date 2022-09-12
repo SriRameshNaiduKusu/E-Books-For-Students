@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630649806130",
+    "project_id": "e-books-for-students-os",
+    "storage_bucket": "e-books-for-students-os.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630649806130:android:0f22e33b1b351dfaa8cb2b",
+        "android_client_info": {
+          "package_name": "in.cwt.ebooksforstudents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630649806130-f012pe8qbukjfjg322p8q4ivbokair2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlixeFb47LPO4OepTPLcuPYCrR6gVzZWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630649806130-f012pe8qbukjfjg322p8q4ivbokair2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

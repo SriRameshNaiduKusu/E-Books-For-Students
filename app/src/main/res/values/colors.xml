@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#47606C</color>
+    <color name="colorPrimaryDark">#77818A</color>
+    <color name="colorAccent">#5271ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="jop">#911DEE</color>
+
+
+    <color name="transparent_black">#99000000</color>
+
+    <color name="bg">#001624</color>
+
+
+
+    <color name="colorPrimary1">#000000</color>
+    <color name="colorPrimaryDark1">#fc6d6d6d</color>
+    <color name="colorAccents">#000000</color>
+
+    <color name="switchColor">#911DEE</color>
+
+    <color name="splash">#E3E3E3</color>
+
+    <color name="gray">#888787</color>
+
+    <color name="Background_Light_S">#ECECEC</color>
+
+    <color name="colorAccent_Night">#5271ff</color>
+    <color name="background_Night">#000000</color>
+    <color name="Titele_A_Night">#DBDBDB</color>
+    <color name="Titele_AA_Night">#E9A0A0A0</color>
+    <color name="Boder_Night">#191919</color>
+    <color name="Background_Night_S">#121212</color>
+    <color name="background_Light">#FDFDFE</color>
+
+    <!--Light Mode Color-->
+    <color name="colorAccent_Light">#5271ff</color>
+    <color name="colorPrimary_Light">#FDFDFE</color>
+
+    <color name="Titele_A_Light">#161616</color>
+    <color name="Titele_AA_Light">#6D6D6D</color>
+    <color name="Boder_Light">#1A0C1318</color>
+
+    <!--Night Mode Color-->
+    <color name="colorPrimary_Night">#000000</color>
+
+    <color name="yellow">#FFDE03</color>
+
+    <!-- Slider -->
+
+    <color name="glide_slider_background_color">#00000000</color>
+    <color name="glide_slider_indicator_color">#FFFFFF</color>
+    <color name="glide_slider_description_color">#FFFFFF</color>
+    <color name="glide_slider_description_background_color">#77000000</color>
+    <color name="red">#FA3223</color>
+</resources>

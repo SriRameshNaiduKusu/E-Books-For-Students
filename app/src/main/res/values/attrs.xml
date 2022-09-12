@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="BackgroundColor" format="color"/>
+    <attr name="BackgroundColor_S" format="color"/>
+    <attr name="BackgroundTint" format="color"/>
+    <attr name="Boder" format="color"/>
+    <attr name="Titel_1" format="color"/>
+    <attr name="Titel_2" format="color"/>
+    <attr name="icon_a" format="integer"/>
+
+
+
+</resources>

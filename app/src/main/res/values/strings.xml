@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">E-Books For Students</string>
+
+    <string-array name="titles">
+        <item>Andhra Pradesh</item>
+        <item>Telangana</item>
+        <item>Maharashtra</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="suggestions">Similar</string>
+
+    <string name="download_started">Download Started</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="no_data">No Data</string>
+    <string name="sponsored">Sponsored</string>
+</resources>

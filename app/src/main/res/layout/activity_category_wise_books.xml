@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CategoryWiseBooksActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_container">
+
+        <RelativeLayout
+            android:id="@+id/RLTopLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RLTop"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imBack"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="0dp"
+                    android:padding="5dp"
+                    android:src="@drawable/go_back" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/category_img"
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_margin="@dimen/margin_8dp"
+                    android:contentDescription="@string/app_name"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="1dp"
+                    tools:src="@drawable/bottom_corners_blue" />
+                <TextView
+                    android:id="@+id/TVTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categories"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/RLTopLayout"
+    >
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategory_books"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                tools:targetApi="lollipop"
+                android:layout_above="@id/banner_container"
+                android:background="@color/bg"/>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/RLnodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/nodata_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nodata"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/nodata_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_data"
+                android:layout_marginTop="5dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+</RelativeLayout>

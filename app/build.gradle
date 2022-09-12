@@ -1,0 +1,73 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "in.cwt.ebooksforstudents"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:30.3.2')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.11.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //Advanced WebView
+    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.2.1'
+
+
+    //App Updater
+    implementation 'com.github.javiersantos:AppUpdater:2.7'
+
+    //circular imageview
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
+    //Glide Slider
+    implementation 'com.github.firdausmaulan:GlideSlider:1.5.1'
+
+    //pdf reader
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+
+    //Progress bar and download notification
+    implementation 'com.daimajia.numberprogressbar:library:1.4@aar'
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.tapadoo.android:alerter:2.0.1'
+
+}
