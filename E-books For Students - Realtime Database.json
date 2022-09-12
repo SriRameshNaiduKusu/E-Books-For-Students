@@ -1,0 +1,91 @@
+{
+  "Books": {
+    "-MMaRDZR09pBjUrPtNMz": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=1JQxWEmnh6Gsv0rQ4Da2hAQKK6ONyWaG-",
+      "cname": "ECE",
+      "fileName": "Wireless Communications Andrea Goldsmith",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1JQxWEmnh6Gsv0rQ4Da2hAQKK6ONyWaG-"
+    },
+    "-MUPg8O1B0AJOz3mgzBs": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=1feUHs38-LfIzQEkDBZFE0il0wdRNjgFg",
+      "cname": "Gate notes",
+      "fileName": "8085 instructions detail",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1feUHs38-LfIzQEkDBZFE0il0wdRNjgFg"
+    },
+    "ghyittt": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=1HQtKCVOYwxBW_WsaPs7IRgjty_sjEet3",
+      "cname": "Aptitude and Placements",
+      "fileName": "Advance C",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1HQtKCVOYwxBW_WsaPs7IRgjty_sjEet3"
+    },
+    "gttyuilop": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=18t6DtCq3H_UFTRZB-EPzK01q5N-w_6D0",
+      "cname": "Placements Questions",
+      "fileName": "Lnt Questions",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=18t6DtCq3H_UFTRZB-EPzK01q5N-w_6D0"
+    },
+    "gtytyv": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=1Vhq4Lf1sMr1EWbwt6ZMiZaDw6qzqQ9Uv",
+      "cname": "CAT Papers",
+      "fileName": "CAT 2000 Paper",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1Vhq4Lf1sMr1EWbwt6ZMiZaDw6qzqQ9Uv"
+    },
+    "ioytt": {
+      "bookLink": "https://drive.google.com/u/0/uc?id=1dhKLvCf_prw46uJm3O4K5-v-uH0hGiml",
+      "cname": "IOT",
+      "fileName": "Computer Network Basics",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1dhKLvCf_prw46uJm3O4K5-v-uH0hGiml"
+    },
+    "tyiuo": {
+      "bookLink": "https://bigbosstelugu.org/wp-content/uploads/2021/05/dummy-text.pdf",
+      "cname": "ECE",
+      "fileName": "Dummy",
+      "thumbnail": "https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1feUHs38-LfIzQEkDBZFE0il0wdRNjgFg"
+    }
+  },
+  "Scrolling Text": "🌟 This is an Open-Source Andrioid App. E-Books For Students ",
+  "categories": {
+    "advddgd": {
+      "cname": "CAT Papers",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    },
+    "dfgh": {
+      "cname": "Aptitude and Placements",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    },
+    "fdhch": {
+      "cname": "IOT",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    },
+    "fert": {
+      "cname": "ECE",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    },
+    "sffghhgj": {
+      "cname": "Placements Questions",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    },
+    "vcbnngh": {
+      "cname": "Gate notes",
+      "cpic": "https://drive.google.com/u/0/uc?id=1p0P3oYnV34yEkVscEykaRt2YaRslEAcn"
+    }
+  },
+  "showslider": "yes",
+  "slider": [
+    null,
+    {
+      "click": "https://developer.android.com/",
+      "imglink": "https://developer.android.com/images/social/android-developers.png",
+      "name": "Andriod Developers",
+      "show": "yes",
+      "sname": "Android Developers"
+    },
+    {
+      "click": "https://github.com/",
+      "imglink": "https://miro.medium.com/max/1400/0*c43pw7UiQgpfjDCl.jpg",
+      "name": "GitHub",
+      "show": "yes",
+      "sname": "GitHub"
+    }
+  ]
+}
