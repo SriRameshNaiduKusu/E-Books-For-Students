@@ -14,7 +14,7 @@ Application data is stored in the Firebase Real-time database. All the books are
 <br />
 <br />
 ## Planning for Future Development:
-**Snapping**: With this students can share a particular paragraph instead of Full PDF with their friends. <br />
+**Snipping**: With this students can share a particular paragraph instead of Full PDF with their friends. <br />
 **Offline Availability**: This Feature lets students view PDFs in offline mode without downloading them to their smartphone. <br />
 <br />
 <br />
